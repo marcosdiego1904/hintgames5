@@ -195,11 +195,11 @@ body{
   .leave2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    align-content: center;
+    align-content:end;
     text-align: center;
-    padding-top: 25%;
+    margin-top: 35%;
   }
   .leave2 p{
     width: 65%;
