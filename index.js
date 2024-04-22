@@ -78,17 +78,16 @@ function secondquiz(test,answer){
       console.log(validation)
       $(".inputAnswer2").val("")
       if(validation == answer){
-          $(".showans2").addClass("showans")
-          $(".dec").text("Nice Job!");
-         /* $("#goback").show();*/
-          $(".input").hide();
+        $(".showans2").addClass("showans")
+        $(".dec").text("Nice Job!")
+        $(".input").show();
+        $(".enter").text(`That's correct!`)
+        $(".enter2").text(`The answer is ${answer}`)
+        $(".submain").hide();
+        $(".showans2").hide();
           $(".leave").show();
-          $(".submain").hide();
-           
-            $(".enter").show();
-            $(".enter2").show(); 
-            $(".enter").text(`That's correct!`)
-            $(".enter2").text(`The answer is ${answer}`)
+          $(".input2").hide();
+          
            
           /*let prompt1 = prompt("do you want to continue?");
           if(prompt1 == "yes"){
