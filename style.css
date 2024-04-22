@@ -284,17 +284,18 @@ body{
         /*background-color: rgb(241, 238, 238);*/
         background-color: rgb(7, 5, 5);
         color: white;
-        width: 80%;
+        width: 340px;
         /*margin: 0 auto;
     */  border-radius: 3%;
         padding: 1px;
         height: 170px;
+        text-align: center;
     }
     .hintwrapper2{
         /*background-color: rgb(241, 238, 238);*/
         background-color: rgb(7, 5, 5);
         color: white;
-        width: 80%;
+        width: 340px;
         /*margin: 0 auto;
     */  border-radius: 3%;
         padding: 1px;
@@ -325,13 +326,70 @@ body{
     .inputs2 h4{
         width: 250px;
     }
+
+    .next{
+        width: 350px;
+    }
+    .next2{
+        width: 350px;
+    }
     .subBut{
-        padding: -500px;
+        width: 197px;
+        padding: 2px;
     }
     .subBut2{
-        padding: -500px;
+        width: 197px;
+        padding: 2px;
     }
-   
+    .inputAnswer{
+        width: 197px;
+    }
+    .inputAnswer2{
+        width: 197px;
+    }
+}
+@media (max-width:390px){
+    .hintwrapper{
+        /*background-color: rgb(241, 238, 238);*/
+        background-color: rgb(7, 5, 5);
+        color: white;
+        width: 300px;
+        /*margin: 0 auto;
+    */  border-radius: 3%;
+        padding: 1px;
+        height: 170px;
+        text-align: center;
+    }
+    .hintwrapper2{
+        /*background-color: rgb(241, 238, 238);*/
+        background-color: rgb(7, 5, 5);
+        color: white;
+        width: 300px;
+        /*margin: 0 auto;
+    */  border-radius: 3%;
+        padding: 1px;
+        height: 170px;
+    }
+    .next{
+        width: 300px;
+    }
+    .next2{
+        width: 300px;
+    }
+    .subBut{
+        width: 177px;
+        padding: 2px;
+    }
+    .subBut2{
+        width: 177px;
+        padding: 2px;
+    }
+    .inputAnswer{
+        width: 177px;
+    }
+    .inputAnswer2{
+        width: 177px;
+    }
 }
 @media (max-width:375px){
     .levelbut{
@@ -358,10 +416,18 @@ body{
         font-size: 17px;
     }
     .inputAnswer{
-        width: 300px;
+        width: 177px;
     }
     .inputAnswer2{
-        width: 300px;
+        width: 177px;
+    }
+    .subBut{
+        width: 177px;
+        padding: 2px;
+    }
+    .subBut2{
+        width: 177px;
+        padding: 2px;
     }
     .main{
         height: 100vh;
