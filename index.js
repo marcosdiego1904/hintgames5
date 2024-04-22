@@ -80,6 +80,7 @@ function secondquiz(test,answer){
       if(validation == answer){
           $(".showans2").addClass("showans")
           $(".dec").text("Nice Job!");
+         /* $("#goback").show();*/
           $(".input").hide();
           $(".leave").show();
           $(".submain").hide();
@@ -88,6 +89,7 @@ function secondquiz(test,answer){
             $(".enter2").show(); 
             $(".enter").text(`That's correct!`)
             $(".enter2").text(`The answer is ${answer}`)
+           
           /*let prompt1 = prompt("do you want to continue?");
           if(prompt1 == "yes"){
             $(".submain").hide();
