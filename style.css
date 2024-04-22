@@ -87,6 +87,7 @@ width: 30%;
 }
 .subBut{
     width: 150px;
+    
 }
 .inputAnswer{
     padding-bottom: 8px;
@@ -544,3 +545,11 @@ body{
         
       }
 }
+@media (min-width:434px) and (max-width:636px){
+    .subBut{
+        margin-top: 5px;
+    }
+    .subBut2{
+        margin-top: 5px;
+    }
+} 
