@@ -436,5 +436,24 @@ body{
     #goback{
         margin-top: -35%;
      }
-   
+     .next{
+        width: 450px;
+    }
+    .next2{
+        width: 450px;
+    }
+    .subBut{
+        width: 170px;
+        padding: 2px;
+    }
+    .subBut2{
+        width: 170px;
+        padding: 2px;
+    }
+    .inputAnswer{
+        width: 280px;
+    }
+    .inputAnswer2{
+        width: 280px;
+    }
 }
