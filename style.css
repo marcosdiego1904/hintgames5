@@ -29,7 +29,7 @@ body{
     visibility: hidden;
     justify-content: center;
     align-items: center;
-    
+    padding-top: 7%;
 }
 .leftside{
     width: 60%;
