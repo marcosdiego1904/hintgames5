@@ -217,7 +217,7 @@ body{
     height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     margin: 0 auto;
   }
   .prompt1 h1{
@@ -240,7 +240,7 @@ body{
 .congrats{
     text-align: center;
     padding-top: 10%;
-    margin-bottom: -13%;
+    margin-bottom: -20%;
     
  
 }
