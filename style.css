@@ -16,6 +16,13 @@ body{
     background-color: #f8f7f7;
     border-radius: 3%;
 }
+.main2{
+    max-width: 1000px;
+    height: 80vh;
+    margin-top: 2%;
+    background-color: #f8f7f7;
+    border-radius: 3%;
+}
 .submain{
     display: flex;
     flex-direction: row;
