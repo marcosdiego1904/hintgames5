@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    background-color: white;
+}
+.main{
+    max-width: 1100px;
+    height: 80vh;
+    margin-top: 5%;
+    background-color: #f8f7f7;
+    border-radius: 3%;
+}
+.submain{
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+
+}
+.leftside{
+    width: 60%;
+    margin-top: 8%;
+}
+.hints h1{
+    text-align: center;
+}
+.hints p{
+    margin-top: 5%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.inputs{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.inputs2{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.rightside{
+width: 30%;
+margin-top: 15%;
+}
+.showans{
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    height: 50px;
+}
+.dec{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    padding-top: 5px;
+}
+.try{
+    visibility: hidden;
+}
+.levelbut{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-top: 7%;
+}
+.but-pri{
+    margin: 10px auto;
+}
+.btn{
+    width: 500px;
+    margin: 10px auto;
+}
+.subBut{
+    width: 150px;
+}
+.inputAnswer{
+    padding-bottom: 8px;
+}
+.next{
+    width: 260px;
+}
+.subBut2{
+    width: 150px;
+}
+.inputAnswer2{
+    padding-bottom: 8px;
+}
+.next2{
+    width: 260px;
+}
+.hintwrapper{
+    /*background-color: rgb(241, 238, 238);*/
+    background-color: rgb(1, 1, 1);
+    color: white;
+    width: 60%;
+    /*margin: 0 auto;
+*/    border-radius: 3%;
+    padding: 1px;
+    margin-left: 10%;
+}
+body{
+    width: 100%;
+    background: url("kurp2.jpg") no-repeat center;
+  
+}
+.inputAnswer{
+    text-align: center;
+    padding: 10px;
+}
+.inputAnswer2{
+    text-align: center;
+    padding: 10px;
+}
+.go{
+    text-decoration: none;
+    color: white;
+}
+.hintwrapper2{
+    display: none;
+}
+.ti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.t{
+    background-color: white;
+    width: 50px;
+    padding: 50px;
+    margin: 10px;
+}
+
+#prompt-dialog {
+    display: none; /* Initially hide the dialog */
+    position: fixed; /* Position it relative to the viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the dialog */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .prompt-content {
+    text-align: center;
+  }
+  
+  .prompt-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #btn-yes {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #btn-no {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .input{
+    display: none;
+    
+  }
+  .leave{
+    display: none;
+    
+  }
+  .leave2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 25%;
+  }
+  .leave2 p{
+    width: 65%;
+    margin-top: 2%;
+    text-align: center;
+}
+  .input2{
+    padding-top: 25%;
+  }
+  .prompt1{
+    background-color: rgb(184, 86, 209);
+    border-radius: 2%;
+    max-width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .prompt1 h1{
+    color: white;
+    text-align: center;
+  }
+  .promtbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+  }
+  .promtbuttons button{
+    width: 130px;
+  }
+  .impor{
+    margin-left: 5%;
+    width: 200px;
+  }
+.congrats{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: -13%;
+    
+ 
+}
+.congrats h1{
+    background-color: rgb(232, 232, 232);
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 45px;
+}
+
+#goback{
+    width: 150px;
+    background-color:  rgb(226, 226, 226);
+    padding: 10px;
+    margin-left: 0%;
+    margin-top: 8%;
+}
+.goback2{
+    background-color: black;
+}
+.title1{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.title2{
+    margin-top: 3%;
+    margin-bottom: -1%;
+    font-size: 18px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    padding: 10px;
+}
+@media (max-width:430px){
+    
+    .btn{
+        width: 350px;
+        margin: 10px auto;
+    }
+    .hintwrapper{
+        /*background-color: rgb(241, 238, 238);*/
+        background-color: rgb(7, 5, 5);
+        color: white;
+        width: 80%;
+        /*margin: 0 auto;
+    */  border-radius: 3%;
+        padding: 1px;
+        height: 170px;
+    }
+    .hintwrapper2{
+        /*background-color: rgb(241, 238, 238);*/
+        background-color: rgb(7, 5, 5);
+        color: white;
+        width: 80%;
+        /*margin: 0 auto;
+    */  border-radius: 3%;
+        padding: 1px;
+        height: 170px;
+    }
+    .hintn{
+        margin-top: 5%;
+    }
+    .hintwrapper p{
+        text-align: center;
+        font-size: 20px;
+        margin: 30px auto;
+    }
+    .hintwrapper2 p{
+        text-align: center;
+        font-size: 20px;
+        margin: 30px auto;
+    }
+    .inputAnswer{
+        width: 350px;
+    }
+    .inputAnswer2{
+        width: 350px;
+    }
+    .inputs h4{
+        width: 250px;
+    }
+    .inputs2 h4{
+        width: 250px;
+    }
+    .subBut{
+        padding: -500px;
+    }
+    .subBut2{
+        padding: -500px;
+    }
+   
+}
+@media (max-width:375px){
+    .levelbut{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-content: space-between;
+        margin-top: 0%;
+    }
+    .but-pri{
+        margin: 0 auto;
+    }
+    .btn{
+        width: 300px;
+        margin: 10px auto;
+    }
+    .title1{
+        padding-top: 40px;
+    }
+    .title2{
+        margin-top: 3%;
+        margin-bottom: -1%;
+        font-size: 17px;
+    }
+    .inputAnswer{
+        width: 300px;
+    }
+    .inputAnswer2{
+        width: 300px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .inputs h4:first-child{
+        margin-top: 20px;
+    }
+    .inputs2 h4:first-child{
+        margin-top: 20px;
+    }
+}
+@media (min-width:820px){
+    .title1{
+        font-size: 40px;
+    }
+    .title2{
+        margin-top: 3%;
+        font-size: 27px;
+    }
+    .inputAnswer{
+        width: 280px;
+    }
+    .inputAnswer2{
+        width: 280px;
+    }
+    .subBut{
+        width: 170px;
+        padding: 2px;
+    }
+    .subBut2{
+        width: 170px;
+        padding: 2px;
+    }
+    .next{
+        width: 450px;
+    }
+    .next2{
+        width: 450px;
+    }
+   
+}
+@media (min-width:768px){
+    #goback{
+        margin-top: 2%;
+     }
+}
+@media (min-width:540px) and (max-width:560px) {
+    .main{
+        height: 100vh;
+    }
+}
+@media (min-width:1024px) and (max-width: 1280px){
+    .title1{
+        font-size: 30px;
+    }
+    .title2{
+        font-size: 17px;
+    }
+    .but-pri{
+        margin: 0px auto;
+    }
+    .main{
+        margin-top: -10px;
+        height: 100vh;
+    }
+    .submain{
+      padding-top: -200px;
+      
+    }
+  
+}
+@media (min-width:1280px) {
+    #goback{
+        margin-top: -35%;
+     }
+   
+}
