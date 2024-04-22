@@ -544,6 +544,9 @@ body{
        padding-top: -500px;
         
       }
+      .leave2{
+        margin-top: 26%;
+      }
 }
 @media (min-width:434px) and (max-width:636px){
     .subBut{
