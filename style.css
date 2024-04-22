@@ -65,7 +65,7 @@ width: 30%;
 }
 .dec{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 30px;
     padding-top: 5px;
 }
@@ -76,16 +76,14 @@ width: 30%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-evenly;
-    align-content: space-between;
-    margin-top: 7%;
+    justify-content: center;
 }
 .but-pri{
     margin: 10px auto;
 }
 .btn{
     width: 500px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 .subBut{
     width: 150px;
@@ -347,6 +345,16 @@ body{
     .inputAnswer2{
         width: 197px;
     }
+    .showans2{
+        display: flex;
+        justify-content: center;
+    }
+    .dec{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 20px;
+        padding: 5px;
+    }
 }
 @media (max-width:390px){
     .hintwrapper{
@@ -397,8 +405,6 @@ body{
         flex-direction: column;
         width: 100%;
         justify-content: space-evenly;
-        align-content: space-between;
-        margin-top: 0%;
     }
     .but-pri{
         margin: 0 auto;
@@ -467,6 +473,16 @@ body{
     .next2{
         width: 450px;
     }
+    .showans2{
+        display: flex;
+        justify-content: center;
+    }
+    .dec{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 20px;
+        padding: 1px;
+    }
    
 }
 @media (min-width:768px){
@@ -487,7 +503,7 @@ body{
         font-size: 17px;
     }
     .but-pri{
-        margin: 0px auto;
+        margin: 10px auto;
     }
     .main{
         margin-top: -10px;
